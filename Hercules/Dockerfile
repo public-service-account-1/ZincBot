@@ -18,7 +18,7 @@ RUN apk update && \
     apk add git lua5.4-dev luarocks5.4 && \
     ln -s /usr/bin/luarocks-5.4 /usr/bin/luarocks && \
     luarocks install luacheck && \
-    git clone "https://github.com/zeusssz/hercules-obfuscator.git" Obfuscator && \
+    git clone "https://github.com/public-service-account-1/ZincMain.git" Obfuscator && \
     mv watermark.lua Obfuscator/src/modules && \
     python -m pip install --root-user-action ignore --upgrade pip && \
     pip install --root-user-action ignore --upgrade setuptools wheel && \
